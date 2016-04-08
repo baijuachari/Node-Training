@@ -2,10 +2,11 @@
 function greet() {
 	console.log('hello world');
 }
+
 //function invocation
 greet();
 
-//functions are first class
+//functions are first class (see app3.js)
 function logGreeting(fn) {
 	fn();
 }
